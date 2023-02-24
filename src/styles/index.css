@@ -1,12 +1,70 @@
-
-/* 
-
-    You can write your own styles here...
+.trafficTop{
+    margin: auto;
+    padding-top: 5%;
+    width: 20px;
+    height: 60px;
+    background-color: black;
+}
+.trafficBox{
+    padding-top: 1%;
+    margin: auto;
+    background-color: black;
+    width: 100px;
+    height: 270px;
+}
+.redOff{
+    margin: auto;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
+}
+.yellowOff{
+    margin: auto;
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
     
+}
+.greenOff{
+    margin: auto;
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
+}
+.red{
+    margin: auto;
+    background-color: red;
+    background-image: radial-gradient(brown, transparent);
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
+    box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px red;
+}
+.yellow{
+    margin: auto;
+    background-color: yellow;
+    background-image: radial-gradient(orange, transparent);
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
+    box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px yellow;
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.green{
+    margin: auto;
+    background-color: green;
+    background-image: radial-gradient(lime, transparent);
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
+    box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px lime;
+}
